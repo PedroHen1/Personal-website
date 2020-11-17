@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body id="body">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check">
+            <div id="hammb">
+                <i id='bars' class="fas fa-bars"></i>
+                <i id="times" class="fas fa-times"></i>
+            </div>
+        </label>
+        <ul>
+            <li><a class="close-nav" href="#home">HOME</a></li>
+            <li><a class="close-nav" href="#about">ABOUT</a></li>
+            <li><a class="close-nav" href="#skills">SKILLS</a></li>
+            <li><a class="close-nav" href="#projects">PROJECTS</a></li>
+            <li><a class="close-nav" href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <!--HEADER-->
+    <header id="home">
+        <div id="title">
+            <h1> <span id="span-title1" class="span">Hi, </span><span id="span-title"  class="span">I'm</span> Pedro Henrique</h1>
+            <h2>Software Developer</h2>
+        </div>
+        <div class="social">
+            <a id="insta" target="_blank" href="https://www.instagram.com/pxdrofreitas/?hl=pt-br" class="fab fa-instagram"></a>
+            <a id="github" target="_blank" href="https://github.com/PedroHen1" class="fab fa-github"></a>
+            <a id="linkedin" target="_blank" href="https://www.linkedin.com/in/pedro-henrique1/" class="fab fa-linkedin"></a>
+        </div>
+        <img id="header-img" src="./img/pexels-matheus-bertelli-1144687.jpg" alt="">
+        <div class="arrow">
+            <a href="#about"><span id="arrow" class="fas fa-angle-double-down fa-2x"></span></a>
+        </div>
+          <svg id="header-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#E1C1A9" fill-opacity="1" d="M0,128L1440,0L1440,320L0,320Z"></path>
+          </svg>
+    </header>
+
+    <!--ABOUT-->
+    <section id="about">
+        <img id="about-img" src="./img/pexels-adrien-olichon-2817469.jpg" alt="">
+        <div id="container" class="opacity">
+            <h1 class="about-title">About me</h1>
+            <span class="small-line"></span>
+            <p id="about-txt">Hey! My name is Pedro Henrique, I born in Minas Gerais, Brazil, where I still live. My interest in programming started when I decided to take a free course in 2019, then I have been studyng and working as front-end about this year. I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to strive toward. I am passionate about what I do, programming for me is a steady source of motivation that drives me to do my best.</p>
+        </div>
+    </section>
+
+    <!--SKILLS-->
+    <svg id="skills-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E1C1A9" fill-opacity="1" d="M0,224L80,192C160,160,320,96,480,106.7C640,117,800,203,960,213.3C1120,224,1280,160,1360,128L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+    <section id="skills" data-aos="fade-down">
+        <h1 class="skills-title">My skills</h1>
+        <div class="skills-container">
+        <div class="my-skills">
+            <div class="technology">
+                <span class="skills-icon">
+                <i id="tech-icon" class="fas fa-laptop"></i>
+                </span>
+                <p>HTML5</p>
+                <p>CSS3</p>
+                <p>JAVASCRIPT</p>
+                <p>REACT.JS</p>
+           </div>
+            <div class="technology">
+                <span id="large" class="skills-icon">
+                <i id="book-icon" class="fas fa-book"></i>
+                </span>
+                <p>SASS</p>
+                <p>BOOTSTRAP</p>
+                <p>STYLED-COMPONENTS</p>
+                <p>NPM/YARN</p>
+            </div>   
+            <div class="technology">
+                <span class="skills-icon">
+                <i id="tools-icon" class="fas fa-cogs"></i>
+                </span>
+                <p>GIT</p>
+                <p>GITHUB</p>
+                <p>WEBPACK</p>
+                <p>GULP</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--PROJECTS-->
+    <section id="projects">
+        <h1 id="projects-title">What I build...</h1>
+        <span id="projects-line" class="small-line"></span>
+        <section id="card-1" class="card" data-aos="fade-left">
+            <img class="card-img" src="./img/travelapp.jpg">
+            <div>
+                <h3 class="card-title">Travel App</h3>
+                <p class="card-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nunc libero, consequat sed felis quis, pellentesque maximus lacus. Pellentesque et tincidunt nunc, vel gravida nisl.</p>
+                <a href="https://tour-app-react.netlify.app/" target="_blank" class="card-btn">Demo</a>
+                <a href="https://github.com/PedroHen1/TourApp" target="_blank"  class="card-btn">Code</a>
+            </div>
+        </section>
+        <section id="card-2" class="card" data-aos="fade-right">
+            <img class="card-img" src="./img/estofadosapp.jpg">
+            <div>
+                <h3 class="card-title">Upholstery</h3>
+                <p class="card-txt">
+                    In this project I practiced new technologies, like React Hooks, I used bootstrap to facilitate responsiveness. I followed a design model already established but done in WordPress, and I aimed to recreate using React.</p>
+                <a href="https://bestestofados.netlify.app/" target="_blank"  class="card-btn">Demo</a>
+                <a href="https://github.com/PedroHen1/EstofadosSite" target="_blank"  class="card-btn">Code</a>
+            </div>
+        </section>
+        <section id="card-3" class="card" data-aos="fade-left">
+            <img class="card-img" src="./img/bakeryapp.jpg">
+            <div>
+                <h3 class="card-title">Bakery Shop</h3>
+                <p class="card-txt">Simple but with a very nice UI/UX, this front-end website was made with Bootstrap and a little of Jquery.</p>
+                <a href="https://ny-bakeryshop.netlify.app/"  target="_blank" class="card-btn">Demo</a>
+                <a href="https://github.com/PedroHen1/BakeryShop" target="_blank" class="card-btn">Code</a>
+            </div>
+        </section>
+        <section id="card-4" class="card" data-aos="fade-right">
+            <img class="card-img" src="./img/cryptoapp.jpg">
+            <div>
+                <h3 class="card-title">Cryptocurrency App</h3>
+                <p class="card-txt">Consuming a simple and objective API, I developed using Axios technology in the browser side, React Hooks and Sass to keep the code organized.</p>
+                <a href="https://cryptoo.netlify.app/" class="card-btn">Demo</a>
+                <a href="https://github.com/PedroHen1/CryptocurrencyApp" class="card-btn">Code</a>
+            </div>
+        </section>
+        <section id="card-3" class="card" data-aos="fade-left">
+            <img class="card-img" src="./img/instagramprint.png">
+            <div>
+                <h3 class="card-title">Instagram login Clone</h3>
+                <p class="card-txt">Using Sass, flex-box and grid, I recreated the Instagram login page.</p>
+                <a href="https://instagrampclone.netlify.app/"  target="_blank" class="card-btn">Demo</a>
+                <a href="https://github.com/PedroHen1/instagram-login-pageClone" target="_blank" class="card-btn">Code</a>
+            </div>
+        </section>
+    </section>
+    <!--CONTACT-->
+    <section id="contact">
+        <div class="contact-title">
+            <h1>Contact</h1>
+            <span class="small-line"></span>
+        </div>
+        <div class="contact-container">
+            <h4>Telefone</h4>
+            <h5>pedroex6tenz@gmail.com</h5>
+            <h4>Address</h4>
+            <h5>(+55) 31 999034817</h5>
+            <h4>Email</h4>
+            <h5>Santa Barbara, MG <br>
+                Brasil
+            </h5>
+        </div>
+    </section>
+    <!--COPYRIGHT-->
+    <section id="copyright">
+        <h6>CopyRight 2020 © By Pedro Henrique All Rights Reserved</h6>
+    </section>
+    <!--JavaScript-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
